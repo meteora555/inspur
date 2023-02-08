@@ -301,7 +301,7 @@ li {
   }
   &__slider {
     @include container();
-    @include fluid(margin-top, 40px, 140px);
+    @include fluid(margin-top, 120px, 140px);
     display: flex;
     @include fluid(height, 360px, 540px);
     .swiper {
@@ -2295,11 +2295,11 @@ li {
         width: 85%;
       }
       &-nav {
-        width: 15%;
+        width: 35%;
       }
     }
     &__slider {
-      margin-top: 75px;
+      margin-top: 200px;
     }
     &__phone {
       position: fixed;
@@ -2996,4 +2996,29 @@ li {
       }
     }
   }
+}
+#ask .ant-form-item .ant-form-item-label >label{
+  color: #fff !important;
+}
+.ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+  display: none;
+}
+.ant-checkbox-wrapper{
+  color: #fff;
+}
+#call-btn{
+  width: 100%;
+  padding: 10px 20px;
+  color: #333333;
+  background: #ffffff;
+  border: 1px solid #f03f3d;
+  border-radius: 20px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+#call-btn:hover {
+  background: #f03f3d;
+  color: #ffffff;
 }

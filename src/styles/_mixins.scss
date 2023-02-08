@@ -3,8 +3,8 @@
   width: 100%;
   max-width: $container-lg;
   margin: 0 auto;
-  padding-left: $p;
-  padding-right: $p;
+  padding-left: $p !important;
+  padding-right: $p !important;
   @media screen and (max-width: $breakpoint-lg) {
     max-width: $container-md;
   }

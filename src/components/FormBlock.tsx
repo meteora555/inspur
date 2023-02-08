@@ -44,8 +44,8 @@ function formBlock() {
               Согласие на получение информационной рассылки о планируемых мероприятиях
             </Checkbox>
           </Form.Item>
-          <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
-            <Button className="" htmlType="submit">
+          <Form.Item wrapperCol={{ offset: 0, span: 32 }}>
+            <Button id="call-btn" htmlType="submit">
               Отправить заявку
             </Button>
           </Form.Item>
