@@ -1,5 +1,6 @@
 ---
 import TabsBlock from './Tabs/TabsBlock';
+import FormBlock from './FormBlock'
 ---
 
 <section class="opportunity">
@@ -129,55 +130,9 @@ import TabsBlock from './Tabs/TabsBlock';
       </div>
     </div>
   </div>
-  <div class="content">
-    <div class="content__container" id="call">
-      <div class="title">
-        <div class="title__news">Свяжитесь с нами</div>
-      </div>
-      <form class="form" id="form">
-        <div class="form__item">
-          <div class="form__item-title">Имя</div>
-          <input type="text" placeholder="Введите имя" id="name" class="form__item-input" />
-        </div>
-        <div class="form__item">
-          <div class="form__item-title">E-mail</div>
-          <input type="text" placeholder="Введите E-mail" id="email" class="form__item-input" />
-        </div>
 
-        <div class="form__item">
-          <div class="form__item-title">Сообщение</div>
-          <input type="text" placeholder="Введите сообщение" id="text" class="form__item-input" />
-        </div>
 
-        <div class="form__accept">
-          <div class="form__checkbox">
-            <input name="accept" id="2" type="checkbox" value="accept" class="form__check" />
-            <div class="form__div"></div>
-            <label for="2" class="form__label"
-              >Согласие на обработку персональных данных и <a href="#"
-                >политикой конфиденциальности</a
-              ></label
-            >
-          </div>
-          <div class="form__checkbox">
-            <input
-              name="accept"
-              id="1"
-              type="checkbox"
-              value="accept"
-              class="form__check"
-              checked
-            />
-            <div class="form__div"></div>
-            <label for="1" class="form__label"
-              >Согласие на получение информационной рассылки о планируемых мероприятиях</label
-            >
-          </div>
-        </div>
-        <button class="form__button" type="submit" onclick="ym(91878057,'reachGoal','clickbutton')"
-          >Отправить заявку</button
-        >
-      </form>
-    </div>
-  </div>
+<FormBlock  client:visible/>
+
+
 </section>

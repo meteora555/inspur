@@ -683,6 +683,21 @@ li {
   }
 }
 
+.swiper-pagination-server {
+  min-width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 50px;
+  span {
+    font-size: 18px;
+  }
+}
+.swiper__wrapper {
+  height: auto !important;
+}
+
 .opportunity {
   position: relative;
   &::before {
@@ -2331,6 +2346,11 @@ li {
         margin-right: 0;
         margin-bottom: 40px;
       }
+    }
+  }
+  .form__item-title {
+    label {
+      color: red;
     }
   }
   .info {
