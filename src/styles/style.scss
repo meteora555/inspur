@@ -304,7 +304,6 @@ li {
     @include fluid(margin-top, 40px, 140px);
     display: flex;
     @include fluid(height, 360px, 540px);
-    position: relative;
     .swiper {
       &-pagination {
         &-current {
@@ -325,7 +324,7 @@ li {
       position: absolute;
       right: 30px;
       display: flex;
-      width: 12%;
+      width: 15%;
       align-items: baseline;
       bottom: 40px;
     }
@@ -334,10 +333,10 @@ li {
       position: unset;
     }
     &-prev {
-      color: #ffffff;
+      color: #ffffff !important;
     }
     &-next {
-      color: #ffffff;
+      color: #ffffff !important;
     }
     &-title {
       @include fluid(font-size, 38px, 50px);
@@ -466,10 +465,11 @@ li {
 .swiper {
   &-button {
     &-next {
-      position: unset;
+      position: absolute;
       top: 0;
       &::after {
         content: none;
+        font-size: 22px !important;
       }
     }
     &-prev {
@@ -477,6 +477,7 @@ li {
       top: 0;
       &::after {
         content: none;
+        font-size: 22px !important;
       }
     }
   }
@@ -2452,6 +2453,23 @@ li {
       width: 50%;
     }
   }
+}
+
+.mybtn__next {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 18px;
+}
+.mybtn__prev {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 10;
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 768px) {

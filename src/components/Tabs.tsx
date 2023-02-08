@@ -1,5 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper';
 
 export default function Counter() {
   const buttons = [
@@ -12,10 +13,20 @@ export default function Counter() {
 
   return (
     <Swiper
-      spaceBetween={50}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper: any) => console.log(swiper)}>
+      spaceBetween={30}
+      slidesPerView={1}
+      allowTouchMove={false}
+      autoHeight={true}
+      pagination={{
+        el: '.swiper-pagination-server',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + buttons[index] + '</span>';
+        },
+      }}
+      observer={true}
+      observeParents={true}
+      className="swiper-server">
       <SwiperSlide>Slide 1</SwiperSlide>
       <SwiperSlide>Slide 2</SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
