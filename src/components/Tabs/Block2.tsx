@@ -17,7 +17,7 @@ export const Block2 = () => {
               Совершенно новая многоузловая модульная система форм-фактора 4U высокой плотности
             </h4>
             <div className="server__images-wrapper">
-              <img src="img/servers/server-3-1.jpg" alt="Изображение сервера 1" />
+              <img src="/images/servers/server-3-1.jpg" alt="Изображение сервера 1" />
             </div>
             <ul className="server__features-list">
               <li className="server__features-item">

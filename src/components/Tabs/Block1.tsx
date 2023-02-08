@@ -215,9 +215,9 @@ export const Block1 = () => {
           <h3>Inspur NF3120M5</h3>
           <h4>Однопроцессорный сервер начального уровня для предприятий</h4>
           <div className="server__images-wrapper">
-            <img src="img/servers/server-2-1.jpg" alt="Изображение сервера 1" />
-            <img src="img/servers/server-2-2.jpg" alt="Изображение сервера 2" />
-            <img src="img/servers/server-2-3.jpg" alt="Изображение сервера 3" />
+            <img src="/images/servers/server-2-1.jpg" alt="Изображение сервера 1" />
+            <img src="/images/servers/server-2-2.jpg" alt="Изображение сервера 2" />
+            <img src="/images/servers/server-2-3.jpg" alt="Изображение сервера 3" />
           </div>
           <ul className="server__features-list">
             <li className="server__features-item">
@@ -384,9 +384,9 @@ export const Block1 = () => {
             данных
           </h4>
           <div className="server__images-wrapper">
-            <img src="img/servers/server-3-1-f.jpg" alt="Изображение сервера 1" />
-            <img src="img/servers/server-3-2-f.jpg" alt="Изображение сервера 2" />
-            <img src="img/servers/server-3-3-f.jpg" alt="Изображение сервера 3" />
+            <img src="/images/servers/server-3-1-f.jpg" alt="Изображение сервера 1" />
+            <img src="/images/servers/server-3-2-f.jpg" alt="Изображение сервера 2" />
+            <img src="/images/servers/server-3-3-f.jpg" alt="Изображение сервера 3" />
           </div>
           <ul className="server__features-list">
             <li className="server__features-item">
@@ -558,9 +558,9 @@ export const Block1 = () => {
             графических процессоров
           </h4>
           <div className="server__images-wrapper">
-            <img src="img/servers/server-4-1-f.jpg" alt="Изображение сервера 1" />
-            <img src="img/servers/server-4-2-f.jpg" alt="Изображение сервера 2" />
-            <img src="img/servers/server-4-3-f.jpg" alt="Изображение сервера 3" />
+            <img src="/images/servers/server-4-1-f.jpg" alt="Изображение сервера 1" />
+            <img src="/images/servers/server-4-2-f.jpg" alt="Изображение сервера 2" />
+            <img src="/images/servers/server-4-3-f.jpg" alt="Изображение сервера 3" />
           </div>
 
           <ul className="server__features-list">
@@ -727,9 +727,9 @@ export const Block1 = () => {
           <h3>Inspur NE5260M5</h3>
           <h4>Сервер с искусственным интеллектом для граничных вычислений</h4>
           <div className="server__images-wrapper">
-            <img src="img/servers/server-5-1-f.jpg" alt="Изображение сервера 1" />
-            <img src="img/servers/server-5-2-f.jpg" alt="Изображение сервера 2" />
-            <img src="img/servers/server-5-3-f.jpg" alt="Изображение сервера 3" />
+            <img src="/images/servers/server-5-1-f.jpg" alt="Изображение сервера 1" />
+            <img src="/images/servers/server-5-2-f.jpg" alt="Изображение сервера 2" />
+            <img src="/images/servers/server-5-3-f.jpg" alt="Изображение сервера 3" />
           </div>
           <ul className="server__features-list">
             <li className="server__features-item">
@@ -810,8 +810,8 @@ export const Block1 = () => {
           <h3>Inspur NF5266M5</h3>
           <h4>Серверы 2U24, оптимизированные для хранения данных</h4>
           <div className="server__images-wrapper">
-            <img src="img/servers/server-6-1-f.jpg" alt="Изображение сервера 1" />
-            <img src="img/servers/server-6-2-f.jpg" alt="Изображение сервера 2" />
+            <img src="/images/servers/server-6-1-f.jpg" alt="Изображение сервера 1" />
+            <img src="/images/servers/server-6-2-f.jpg" alt="Изображение сервера 2" />
           </div>
           <ul className="server__features-list">
             <li className="server__features-item">

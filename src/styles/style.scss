@@ -2996,7 +2996,7 @@ li {
     }
   }
 }
-#ask .ant-form-item .ant-form-item-label >label{
+.ant-form-item .ant-form-item-label >label{
   color: #fff !important;
 }
 .ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
@@ -3006,8 +3006,8 @@ li {
   color: #fff;
 }
 #call-btn{
-  width: 100%;
   padding: 10px 20px;
+  width: 100%;
   color: #333333;
   background: #ffffff;
   border: 1px solid #f03f3d;
@@ -3040,4 +3040,16 @@ li {
 }
 .ant-collapse .ant-collapse-content>.ant-collapse-content-box{
   padding: 0;
+}
+.types-header{
+  font-size: 28px;
+  font-weight: 900;
+  margin: 40px 0;
+  margin-left: 10px;
+}
+#form-ask{
+  max-width: 400px !important;
+}
+.form__item-input{
+  width: 100%;
 }

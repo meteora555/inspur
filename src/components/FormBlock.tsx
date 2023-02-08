@@ -8,7 +8,7 @@ function formBlock() {
         <div className="title">
           <div className="title__news">Свяжитесь с нами</div>
         </div>
-        <Form name="ask" layout={'vertical'} autoComplete="on" style={{ maxWidth: 1000 }}>
+        <Form name="ask" layout={'vertical'} autoComplete="on" id="form-ask">
           <Form.Item
             className="form__item-title"
             label="Имя"
@@ -44,8 +44,8 @@ function formBlock() {
               Согласие на получение информационной рассылки о планируемых мероприятиях
             </Checkbox>
           </Form.Item>
-          <Form.Item wrapperCol={{ offset: 0, span: 32 }}>
-            <Button id="call-btn" htmlType="submit">
+          <Form.Item>
+            <Button type="primary" id="call-btn" htmlType="submit">
               Отправить заявку
             </Button>
           </Form.Item>

@@ -62,7 +62,7 @@ function TabsBlock() {
                   и среднем бизнесе и других секторах.
                 </h4>
                 <div className="server__images-wrapper">
-                  <img src="img/servers/server-4-1-n.jpg" alt="Изображение сервера 1" />
+                  <img src="/images/servers/server-4-1-n.jpg" alt="Изображение сервера 1" />
                 </div>
                 <ul className="server__features-list">
                   <li className="server__features-item">

@@ -14,9 +14,9 @@ export const Block3 = () => {
             <h3>Inspur Rack Scale Server OR</h3>
             <h4>Открытые платформы для перспективных центров обработки данных</h4>
             <div className="server__images-wrapper">
-              <img src="img/servers/server-3-1-n.jpg" alt="Изображение сервера 1" />
-              <img src="img/servers/server-3-2-n.jpg" alt="Изображение сервера 2" />
-              <img src="img/servers/server-3-3-n.jpg" alt="Изображение сервера 3" />
+              <img src="/images/servers/server-3-1-n.jpg" alt="Изображение сервера 1" />
+              <img src="/images/servers/server-3-2-n.jpg" alt="Изображение сервера 2" />
+              <img src="/images/servers/server-3-3-n.jpg" alt="Изображение сервера 3" />
             </div>
             <ul className="server__features-list">
               <li className="server__features-item">
