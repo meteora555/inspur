@@ -1,5 +1,6 @@
 ---
 import Slider from './Slider';
+
 ---
 
 <header class="header header--index">
@@ -65,60 +66,23 @@ import Slider from './Slider';
   </div>
 
   <Slider client:visible />
-  <!-- <div class=" swiper">
-      <div class="swiper-wrapper header__wrapper">
-        <div class="swiper-slide header__slide">
-          <div class="header__slide-container">
-            <div class="header__slide-title">
-              Сомневаетесь в выборе магазина
-            </div>
-            <div class="header__slide-text">
-              Наши консультанты готовы помочь вам с выбором
-            </div>
-            <a href="#call" class="header__slide-btn" onclick="ym(91878057,'reachGoal','click1')">Напишите нам</a>
-          </div>
-        </div>
-        <div class="swiper-slide header__slide">
-          <div class="header__slide-container">
-            <div class="header__slide-title">
-              Сомневаетесь в выборе магазина
-            </div>
-            <div class="header__slide-text">
-              Наши консультанты готовы помочь вам с выбором
-            </div>
-            <a href="#call" class="header__slide-btn" onclick="ym(91878057,'reachGoal','click1')">Напишите нам</a>
-          </div>
-        </div>
-        <div class="swiper-slide header__slide">
-          <div class="header__slide-container">
-            <div class="header__slide-title">
-              Сомневаетесь в выборе магазина
-            </div>
-            <div class="header__slide-text">
-              Наши консультанты готовы помочь вам с выбором
-            </div>
-            <a href="#call" class="header__slide-btn" z>Напишите нам</a>
-          </div>
-        </div>
-        <div class="swiper-slide header__slide">
-          <div class="header__slide-container">
-            <div class="header__slide-title">
-              Сомневаетесь в выборе магазина
-            </div>
-            <div class="header__slide-text">
-              Наши консультанты готовы помочь вам с выбором
-            </div>
-            <a href="#call" class="header__slide-btn" onclick="ym(91878057,'reachGoal','click1')">Напишите нам</a>
-          </div>
-        </div>
-      </div>
-      <div class="header__slide-nav">
-        <div class="swiper-button-prev header__slide-prev icon-arrowLeft"></div>
-        <div class="swiper-pagination header__slide-pagginashion"></div>
-        <div class="swiper-button-next header__slide-next icon-arrowRight"></div>
-      </div>
-    </div> -->
+
+
+  <div id="particles-js" style="position: absolute; width: 100%;height:90vh; top: 0"></div>
+
 </header>
+
+<script src="/src/particles.js" is:inline></script>
+
+
+
+<script is:inline>
+ particlesJS.load('particles-js', '/src/package.json', function() {
+  console.log('callback - particles.js config loaded');
+ })
+
+</script>
+
 
 <script>
 

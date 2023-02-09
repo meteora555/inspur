@@ -132,8 +132,7 @@ li {
     width: 100%;
     background-size: cover;
     bottom: 0;
-    filter: brightness(0) saturate(100%) invert(13%) sepia(56%) saturate(13%) hue-rotate(42deg)
-      brightness(100%) contrast(85%);
+    margin-bottom: -1px;
   }
   &__item {
     @include container();
