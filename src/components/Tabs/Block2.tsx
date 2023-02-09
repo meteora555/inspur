@@ -6,11 +6,11 @@ export const Block2 = () => {
   return (
     <div>
       <div className="swiper-slide">
-        <span className="server__caption">
-          Подходит для HCI, больших данных, высокопроизводительных вычислений, распределенных
-          хранилищ данных и других сценариев применения.
-        </span>
         <ul className="server__list">
+          <span className="server__caption">
+            Подходит для HCI, больших данных, высокопроизводительных вычислений, распределенных
+            хранилищ данных и других сценариев применения.
+          </span>
           <li className="server__item">
             <h3>Inspur i48</h3>
             <h4>

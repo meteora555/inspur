@@ -1569,7 +1569,7 @@ li {
 .paragraph {
   @include fluid(font-size, 12px, 16px);
   line-height: 150%;
-  color: #666666;
+  color: #bebbbb;
   @include fluid(margin-bottom, 10px, 15px);
   &:last-child {
     margin-bottom: 0;
@@ -2196,6 +2196,7 @@ li {
 // Код для серверов
 
 .server__list {
+  margin-top: 50px !important;
   border: 2px solid #ffffff;
 }
 
@@ -2996,16 +2997,18 @@ li {
     }
   }
 }
-.ant-form-item .ant-form-item-label >label{
+.ant-form-item .ant-form-item-label > label {
   color: #fff !important;
 }
-.ant-form-item .ant-form-item-label >label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before{
+.ant-form-item
+  .ant-form-item-label
+  > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
   display: none;
 }
-.ant-checkbox-wrapper{
+.ant-checkbox-wrapper {
   color: #fff;
 }
-#call-btn{
+#call-btn {
   padding: 10px 20px;
   width: 100%;
   color: #333333;
@@ -3021,35 +3024,78 @@ li {
   background: #f03f3d;
   color: #ffffff;
 }
-.react-tabs__tab:focus:after{
-  background: linear-gradient(92.54deg, #f03f3d 0%, #f35835 100%) !important;
-}
-.ant-collapse>.ant-collapse-item{
-  background-color: #D9D9D9;
+//tabs
+.react-tabs__tab {
+  padding: 15px 20px !important;
+  margin-bottom: 18px;
+  margin-right: 20px;
+  border: 1px solid gray !important;
+  border-radius: 25px;
+  transition: 0.38s ease-in-out;
+  @media screen and (max-width: 991px) {
+    padding: 10px 15px !important;
+  }
 
+  &:hover {
+    transition: 0.38s ease-in-out;
+    background: #f03f3d !important;
+  }
 }
-.ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header{
+.react-tabs__tab--selected {
+  padding: 20px;
+  margin-bottom: 18px;
+  margin-right: 20px;
+  border-radius: 25px !important;
+  &:hover {
+    background: #fff !important;
+    opacity: 1 !important;
+  }
+  // background: linear-gradient(92.54deg, #f03f3d 0%, #f35835 100%) !important;
+}
+.react-tabs__tab:focus:after {
+  background: transparent !important;
+  background-size: 1px;
+}
+.ant-collapse > .ant-collapse-item {
+  background-color: #d9d9d9;
+}
+.ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
   border-radius: 10px;
 }
-.ant-collapse{
+.ant-collapse {
   overflow: hidden;
 }
-.ant-collapse>.ant-collapse-item >.ant-collapse-header .ant-collapse-header-text{
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-header-text {
   font-size: 17px;
   font-weight: 600;
 }
-.ant-collapse .ant-collapse-content>.ant-collapse-content-box{
+.ant-collapse .ant-collapse-content > .ant-collapse-content-box {
   padding: 0;
 }
-.types-header{
+.types-header {
   font-size: 28px;
   font-weight: 900;
   margin: 40px 0;
-  margin-left: 10px;
 }
-#form-ask{
+#form-ask {
   max-width: 400px !important;
 }
-.form__item-input{
+.form__item-input {
   width: 100%;
+}
+.wrapper__tabs {
+  @include container;
+}
+.server__caption {
+  @media screen and (max-width: 991px) {
+    text-align: center;
+  }
+}
+.server__item {
+  @media screen and (max-width: 991px) {
+    h4 {
+      text-align: center;
+      width: 90%;
+    }
+  }
 }

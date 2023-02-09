@@ -119,3 +119,23 @@ import Slider from './Slider';
       </div>
     </div> -->
 </header>
+
+<script>
+
+const burger = document.querySelector("#b2");
+const burgerList = document.querySelector(".header__phone");
+const closeTriggers = document.querySelectorAll('.header__link-item')
+
+if (burger) {
+    burger.addEventListener("click", function () {
+        burgerList.classList.toggle("header__phone--active");
+    });
+}
+closeTriggers.forEach((i) => i.addEventListener('click', (e) => {
+  console.log(e.target);
+  burgerList.classList.remove("header__phone--active");
+
+}))
+
+
+</script>

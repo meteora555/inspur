@@ -1,8 +1,7 @@
 .server__caption {
   display: block;
   font-size: 22px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   font-weight: 500;
   margin-left: auto;
   max-width: 80%;
@@ -11,9 +10,10 @@
 }
 
 .server__list {
+  margin-top: 50px;
   list-style-type: none;
   margin: 0;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   border-radius: 25px;
   padding: 50px;
   margin-bottom: 40px;
@@ -39,7 +39,7 @@
   font-size: 17px;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
-  width: 360px;
+  width: 47%;
   margin-bottom: 60px;
 }
 
@@ -66,14 +66,14 @@
 }
 
 .server__features-item h5::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   width: 6px;
   height: 6px;
   border-radius: 50%;
   top: 9px;
-  background: #F76D09;
+  background: #f76d09;
 }
 
 .server__images-wrapper {
@@ -96,7 +96,7 @@
 .server__info-list {
   list-style-type: none;
   margin: 0;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 10px;
   padding: 16px 30px 30px;
   display: flex;
@@ -113,7 +113,7 @@
 }
 
 .server__info-item::before {
-  content: "";
+  content: '';
   position: absolute;
   bottom: -8px;
   width: 100%;
@@ -150,7 +150,7 @@
   font-weight: 600;
   position: relative;
   color: #333;
-  background: #D9D9D9;
+  background: #d9d9d9;
   cursor: pointer;
   transition: box-shadow 0.6s, border-radius 0.6s;
   display: flex;
@@ -175,14 +175,14 @@
 }
 
 .server__accordion div::before {
-  content: "";
+  content: '';
   position: absolute;
   right: -30px;
   width: 10px;
   height: 10px;
   background: transparent;
-  border-right: 2px solid #F76D09;
-  border-bottom: 2px solid #F76D09;
+  border-right: 2px solid #f76d09;
+  border-bottom: 2px solid #f76d09;
   transform: rotate(45deg);
   transition: 0.2s transform;
 }
@@ -217,7 +217,7 @@
 }
 
 /* Стили для свайпера */
-.content .swiper .swiper-slide:nth-child(n+5) .server__item h4 {
+.content .swiper .swiper-slide:nth-child(n + 5) .server__item h4 {
   max-width: 700px;
 }
 .swiper-pagination-server {
@@ -254,11 +254,11 @@
 
 .swiper-pagination-server .swiper-pagination-bullet-active {
   background: transparent;
-  border: 2px solid #F66D09;
+  border: 2px solid #f66d09;
 }
 
 .swiper-pagination-server .swiper-pagination-bullet-active:hover {
-  border: 2px solid #F66D09;
+  border: 2px solid #f66d09;
 }
 
 .content .swiper .swiper-slide {
@@ -266,7 +266,7 @@
   transition: none;
 }
 
-.content .swiper .swiper-slide:nth-child(n+4) .server__item h4 {
+.content .swiper .swiper-slide:nth-child(n + 4) .server__item h4 {
   max-width: 750px;
 }
 
@@ -301,10 +301,11 @@
   }
 
   .server__list {
+    margin-top: 50px;
     padding: 30px;
   }
 
-  .content .swiper .swiper-slide:nth-child(n+4) .server__item h4 {
+  .content .swiper .swiper-slide:nth-child(n + 4) .server__item h4 {
     max-width: none;
   }
 }
@@ -323,6 +324,7 @@
 
 @media (max-width: 540px) {
   .server__list {
+    margin-top: 50px;
     padding: 10px;
   }
 

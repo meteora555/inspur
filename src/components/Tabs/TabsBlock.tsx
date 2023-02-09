@@ -9,29 +9,34 @@ import { Block4 } from './Block4';
 import { Block5 } from './Block5';
 
 export default () => (
-  <Tabs>
-    <TabList>
-      <Tab>Стоечные серверы</Tab>
-      <Tab>Многоузловые серверы</Tab>
-      <Tab>Стоечные масштабируемые системы</Tab>
-      <Tab>Хранилища данных</Tab>
-      <Tab>Гибридное хранилище</Tab>
-    </TabList>
+  <div className="wrapper__tabs">
+    <h2 className="types-header" id="serverTypes">
+      Виды серверов
+    </h2>
+    <Tabs>
+      <TabList>
+        <Tab>Стоечные серверы</Tab>
+        <Tab>Многоузловые серверы</Tab>
+        <Tab>Стоечные масштабируемые системы</Tab>
+        <Tab>Хранилища данных</Tab>
+        <Tab>Гибридное хранилище</Tab>
+      </TabList>
 
-    <TabPanel>
-      <Block1 />
-    </TabPanel>
-    <TabPanel>
-      <Block2 />
-    </TabPanel>
-    <TabPanel>
-      <Block3 />
-    </TabPanel>
-    <TabPanel>
-      <Block4 />
-    </TabPanel>
-    <TabPanel>
-      <Block5 />
-    </TabPanel>
-  </Tabs>
+      <TabPanel>
+        <Block1 />
+      </TabPanel>
+      <TabPanel>
+        <Block2 />
+      </TabPanel>
+      <TabPanel>
+        <Block3 />
+      </TabPanel>
+      <TabPanel>
+        <Block4 />
+      </TabPanel>
+      <TabPanel>
+        <Block5 />
+      </TabPanel>
+    </Tabs>
+  </div>
 );

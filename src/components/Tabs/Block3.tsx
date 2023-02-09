@@ -5,11 +5,11 @@ export const Block3 = () => {
   return (
     <div>
       <div className="swiper-slide">
-        <span className="server__caption">
-          Подходят для виртуализации, анализа больших данных, распределенных решений для хранения
-          данных и других сценариев применения.
-        </span>
         <ul className="server__list">
+          <span className="server__caption">
+            Подходят для виртуализации, анализа больших данных, распределенных решений для хранения
+            данных и других сценариев применения.
+          </span>
           <li className="server__item">
             <h3>Inspur Rack Scale Server OR</h3>
             <h4>Открытые платформы для перспективных центров обработки данных</h4>

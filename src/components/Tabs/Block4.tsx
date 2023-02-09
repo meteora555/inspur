@@ -4,10 +4,10 @@ const { Panel } = Collapse;
 export const Block4 = () => {
   return (
     <div>
-      <span className="server__caption">
-        Флеш-хранилище Inspur. Ускорение работы корпоративных приложений.
-      </span>
       <ul className="server__list">
+        <span className="server__caption">
+          Флеш-хранилище Inspur. Ускорение работы корпоративных приложений.
+        </span>
         <li className="server__item">
           <h3>Хранилище данных на основе флеш-памяти HF5000G5</h3>
           <h4>
